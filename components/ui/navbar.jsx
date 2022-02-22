@@ -74,7 +74,7 @@ function Navbar(props) {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
+          <LinkItem href="/frogeum" path={path}>
             Frogeum
           </LinkItem>
           <LinkItem
@@ -109,8 +109,8 @@ function Navbar(props) {
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
+                <NextLink href="/frogeum" passHref>
+                  <MenuItem as={Link}>Frogeum</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
