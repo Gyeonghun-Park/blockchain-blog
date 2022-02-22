@@ -10,6 +10,7 @@ import {
   useColorModeValue,
   chakra,
 } from "@chakra-ui/react";
+import { Section } from "@components/ui";
 
 function Home() {
   return (
@@ -32,6 +33,12 @@ function Home() {
           <p>포기를 포기한 사나이</p>
         </Box>
       </Box>
+
+      <Section delay={0.1}>
+        <Heading as="h3" variant="section-title">
+          Work
+        </Heading>
+      </Section>
     </Container>
   );
 }
