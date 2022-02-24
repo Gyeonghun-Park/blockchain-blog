@@ -2,16 +2,17 @@ import { MainLayout } from "@components/layouts";
 import { AnimatePresence } from "framer-motion";
 import { ChakraProvider } from "@components/providers";
 import { Fonts } from "@components/ui";
+import "../styles/globals.css";
 
 if (typeof window !== "undefined") {
   window.history.scrollRestoration = "manual";
 }
 
-function MyApp({ Component, pageProps, router }) {
+function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider cookies={pageProps.cookies}>
       <Fonts />
-      <MainLayout router={router}>
+      <MainLayout>
         <AnimatePresence
           exitBeforeEnter
           initial={true}
@@ -21,7 +22,7 @@ function MyApp({ Component, pageProps, router }) {
             }
           }}
         >
-          <Component {...pageProps} key={router.route} />
+          <Component {...pageProps} />
         </AnimatePresence>
       </MainLayout>
     </ChakraProvider>

@@ -1,4 +1,5 @@
 import NextLink from "next/link";
+import { useRouter } from "next/router";
 import {
   Container,
   Box,
@@ -17,8 +18,9 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 import { IoLogoGithub } from "react-icons/io5";
 import { Logo, ThemeToggleButton } from "@components/ui";
 
-function LinkItem({ href, path, target, children, ...props }) {
-  const active = path === href;
+function LinkItem({ href, target, children, ...props }) {
+  const router = useRouter();
+  const active = router.pathname === href;
   const inactiveColor = useColorModeValue("gray200", "whiteAlpha.900");
 
   return (
@@ -37,8 +39,6 @@ function LinkItem({ href, path, target, children, ...props }) {
 }
 
 function Navbar(props) {
-  const { path } = props;
-
   return (
     <Box
       position="fixed"
@@ -71,16 +71,11 @@ function Navbar(props) {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
-            Works
-          </LinkItem>
-          <LinkItem href="/frogeum" path={path}>
-            Frogeum
-          </LinkItem>
+          <LinkItem href="/works">Works</LinkItem>
+          <LinkItem href="/frogeum">Frogeum</LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/Gyeonghun-Park/blockchain-blog"
-            path={path}
             display="inline-flex"
             alignItems="center"
             style={{ gap: 4 }}

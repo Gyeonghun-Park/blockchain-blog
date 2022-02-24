@@ -9,7 +9,7 @@ const LazyVoxelDog = dynamic(() => import("../ui/voxelDog"), {
   loading: () => <DogLoader />,
 });
 
-function MainLayout({ children, router }) {
+function MainLayout({ children }) {
   return (
     <Box as="main" pb={8}>
       <Head>
@@ -24,7 +24,7 @@ function MainLayout({ children, router }) {
         <title>Gyeonghun Park - Blog</title>
       </Head>
 
-      <Navbar path={router.asPath} />
+      <Navbar />
 
       <Container maxW="container.md" pt={14}>
         <LazyVoxelDog />

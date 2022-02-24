@@ -1,7 +1,6 @@
 import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
 import { ArticleLayout } from "@components/layouts";
-import { Section } from "@components/ui";
-import { WorkGridItem } from "../components/ui/gridItem";
+import { Section, WorkGridItem } from "@components/ui";
 
 import thumbnailTest from "@images/works/frogeum.png";
 
@@ -87,5 +86,3 @@ const Works = () => (
 );
 
 export default Works;
-
-export { getServerSideProps } from "@components/providers";

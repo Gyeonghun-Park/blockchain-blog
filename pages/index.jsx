@@ -1,15 +1,4 @@
-import {
-  Link,
-  Container,
-  Heading,
-  Box,
-  SimpleGrid,
-  Button,
-  List,
-  ListItem,
-  useColorModeValue,
-  chakra,
-} from "@chakra-ui/react";
+import { Container, Heading, Box, useColorModeValue } from "@chakra-ui/react";
 import { Section } from "@components/ui";
 
 function Home() {
@@ -22,7 +11,7 @@ function Home() {
         textAlign="center"
         bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
       >
-        코드로 실생활 문제를 해결하고자 합니다.
+        Hello, I&apos;m a full-stack developer based in Korean!
       </Box>
 
       <Box display={{ md: "flex" }}>
