@@ -2,7 +2,7 @@ import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
 import { ArticleLayout } from "@components/layouts";
 import { Section, WorkGridItem } from "@components/ui";
 
-import thumbnailTest from "@images/works/frogeum.png";
+import thumbnailTest from "@images/frogeum/frogeum.png";
 
 const Works = () => (
   <ArticleLayout title="Works">

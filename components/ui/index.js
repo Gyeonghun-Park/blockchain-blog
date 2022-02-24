@@ -9,3 +9,4 @@ export {
   DogSpinner,
   DogContainer,
 } from "./voxelDogLoader";
+export { default as Paragraph } from "./paragraph";
