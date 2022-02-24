@@ -1,24 +1,24 @@
 import NextLink from "next/link";
-import Image from "next/image";
 import dynamic from "next/dynamic";
 import {
   Link,
   Container,
   Heading,
   Box,
-  SimpleGrid,
   Button,
   List,
   ListItem,
   useColorModeValue,
-  chakra,
 } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from "react-icons/io5";
+import {
+  IoLogoTwitter,
+  IoLogoLinkedin,
+  IoLogoGithub,
+  IoBookSharp,
+} from "react-icons/io5";
 import { Section, Paragraph, GridItem, DogLoader } from "@components/ui";
 import { ArticleLayout } from "@components/layouts";
-
-import thumbnailTest from "@images/frogeum/frogeum.png";
 
 const LazyVoxelDog = dynamic(() => import("../components/ui/voxelDog"), {
   ssr: false,
@@ -37,7 +37,7 @@ function Home() {
           textAlign="center"
           bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
         >
-          Hello, I&apos;m a full-stack developer based in Korea!
+          Hello, I&apos;m a CS student based in Korea!
         </Box>
 
         <Box display={{ md: "flex" }}>
@@ -48,6 +48,89 @@ function Home() {
             <p>Student ( Front / Back / Blockchain )</p>
           </Box>
         </Box>
+
+        <Section delay={0.1}>
+          <Heading as="h3" variant="section-title">
+            Work
+          </Heading>
+          <Paragraph>
+            Gyeonghun is a student and a full-stack developer based in Korea
+            with a passion for building digital services/stuff he wants. He is
+            passionate about solving real-life problems with code from planning
+            and design. Currently, he is into blockchain and this blog is also a
+            portfolio for his blockchain works. However, there is another{" "}
+            <Link
+              href="https://distracted-liskov-02940c.netlify.app/"
+              target="_blank"
+            >
+              portfolio
+            </Link>{" "}
+            related to front, backend, and cloud, so please check if you are
+            interested. :)
+          </Paragraph>
+          <Box align="center" my={4}>
+            <NextLink href="/works" passHref scroll={false}>
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                Blockchain portfolio
+              </Button>
+            </NextLink>
+          </Box>
+        </Section>
+
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            On the web
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/Gyeonghun-Park" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoGithub />}
+                >
+                  Gyeonghun-Park
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://twitter.com/gyeonghun_park" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoTwitter />}
+                >
+                  @gyeonghun_park
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                href="https://www.linkedin.com/in/gyeonghun-park-095971193/"
+                target="_blank"
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoLinkedin />}
+                >
+                  Gyeonghun Park
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://gyeonghun-park.github.io/" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoBookSharp />}
+                >
+                  Gyeonghun&apos;s Blog
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
+        </Section>
       </Container>
     </ArticleLayout>
   );
