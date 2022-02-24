@@ -17,7 +17,7 @@ import {
   IoLogoGithub,
   IoBookSharp,
 } from "react-icons/io5";
-import { Section, Paragraph, GridItem, DogLoader } from "@components/ui";
+import { Section, Paragraph, DogLoader } from "@components/ui";
 import { ArticleLayout } from "@components/layouts";
 
 const LazyVoxelDog = dynamic(() => import("../components/ui/voxelDog"), {

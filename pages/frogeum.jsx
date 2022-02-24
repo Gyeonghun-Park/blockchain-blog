@@ -52,11 +52,11 @@ function Frogeum() {
           </Box>
           <Box>
             <Heading as="h2" variant="page-title">
-              Popcateum Everywhere!
+              Frogeum Everywhere!
             </Heading>
             <p>
-              Popcateum is the community-run technology powering the
-              cryptocurrency, popcat (POP) and thousands of decentralized
+              Frogeum is the community-run technology powering the
+              cryptocurrency, froge (FRO) and thousands of decentralized
               applications.
             </p>
           </Box>
@@ -64,19 +64,19 @@ function Frogeum() {
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            Go Popcateum
+            Go Frogeum
           </Heading>
           <Paragraph>
-            Official Go implementation of the Popcateum protocol. Go Popcateum
-            is one of the three original implementations (along with C++ and
-            Python) of the Popcateum protocol. It is written in Go, fully open
+            Official Go implementation of the Frogeum protocol. Go Frogeum is
+            one of the three original implementations (along with C++ and
+            Python) of the Frogeum protocol. It is written in Go, fully open
             source and licensed under the GNU LGPL v3.
           </Paragraph>
         </Section>
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            Gpop v1.0.0
+            Gfro v1.0.0
           </Heading>
           <List>
             <ListItem>
@@ -98,13 +98,13 @@ function Frogeum() {
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            Mining &apos;POP&apos;
+            Mining &apos;FRO&apos;
           </Heading>
           <Paragraph>
-            1 popcat (POP) = 1,000,000,000,000,000,000 wei. You can mine popcat
-            using gpop! Popcateum rewards 50 popcat for each block you create.
-            Also, you can use GPU to mine by connecting Ethminer and Gpop.
-            Popcateum recommends using{" "}
+            1 froge (FRO) = 1,000,000,000,000,000,000 wei. You can mine froge
+            using gfro! Frogeum rewards 50 froge for each block you create.
+            Also, you can use GPU to mine by connecting Ethminer and Gfro.
+            Frogeum recommends using{" "}
             <Link
               href="https://github.com/ethereum-mining/ethminer/releases/tag/v0.18.0"
               target="_blank"
@@ -123,10 +123,10 @@ function Frogeum() {
           </Box>
           <List my={6}>
             <ListItem>
-              <b>1.</b> In the directory where Gpop is located, enter the
-              command below and synchronize it with the Popcateum main network.
+              <b>1.</b> In the directory where Gfro is located, enter the
+              command below and synchronize it with the Frogeum main network.
               <BlockCode>
-                ./gpop --syncmode &quot;full&quot; --http --http.port 9506
+                ./gfro --syncmode &quot;full&quot; --http --http.port 9506
                 console
               </BlockCode>
             </ListItem>
@@ -138,13 +138,13 @@ function Frogeum() {
               </BlockCode>
             </ListItem>
             <ListItem>
-              <b>3.</b> Start mining in Gpop. If it is the first mining, it can
+              <b>3.</b> Start mining in Gfro. If it is the first mining, it can
               be mined after DAG is created.
               <BlockCode>miner.start(1)</BlockCode>
             </ListItem>
             <ListItem>
               <b>4.</b> In the directory where Ethminer is located, enter the
-              command below to connect it to GPU mining in Gpop. If your
+              command below to connect it to GPU mining in Gfro. If your
               computer GPU is a Radeon, please use the -G option and the -U
               option if it&apos;s Ndivia, please use the -U option. (For Radeon
               GPUs, using too recent graphics card drivers may not be able to
@@ -163,7 +163,7 @@ function Frogeum() {
             Wallet
           </Heading>
           <Paragraph>
-            Popcateum can send POP to others using Metamask and Gpop. Please
+            Frogeum can send FRO to others using Metamask and Gfro. Please
             install the{" "}
             <Link
               href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn"
@@ -194,10 +194,10 @@ function Frogeum() {
             Development
           </Heading>
           <Paragraph>
-            Popcateum is a public blockchain platform. Create smart contracts
-            with Solidity and deploy them to Popcateum main networks. You can
-            use web3, truffle, etc., which is a development tool that Ethereum
-            used before.
+            Frogeum is a public blockchain platform. Create smart contracts with
+            Solidity and deploy them to Frogeum main networks. You can use web3,
+            truffle, etc., which is a development tool that Ethereum used
+            before.
             <SimpleGrid columns={[1, 1, 2]} gap={6} my={8}>
               <GridItem
                 href="https://geth.ethereum.org/docs/"
@@ -220,9 +220,9 @@ function Frogeum() {
                 thumbnail={logoWeb3}
               />
             </SimpleGrid>
-            If you want to distribute the dapp on the main net of Popcateum, but
-            you don&apos;t have a POP, please send an email to our
-            team.(popcateum@gmail.com) We are sending you a little POP!
+            If you want to distribute the dapp on the main net of Frogeum, but
+            you don&apos;t have a FRO, please send an email to our
+            team.(frogeum@gmail.com) We are sending you a little FRO!
           </Paragraph>
         </Section>
       </Container>
