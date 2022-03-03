@@ -20,7 +20,9 @@ const Work = () => (
       </Title>
       <Section delay={0.1}>
         <Paragraph>
-          Twitter Blockchain Web 3.0 App with Next.js, Sanity.io, thirdweb
+          Twitter Blockchain Web 3.0. You can communicate in short messages
+          called tweets and mint your own NFT token for use as your profile
+          image.
         </Paragraph>
       </Section>
 
@@ -39,19 +41,22 @@ const Work = () => (
 
           <ListItem>
             <Meta>Feature</Meta>
-            <span>
-              MetaMask Auth, Sanity DB, thirdweb&apos;s smart contracts
-            </span>
+            <span>MetaMask Auth, Minting NFT tokens, Writing tweets</span>
           </ListItem>
 
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React, Next.js, Sanity, thirdweb SDK, Tailwind</span>
+            <span>React, Next.js, Sanity, Hardhat, Tailwind</span>
           </ListItem>
 
           <ListItem>
             <Meta>Platform</Meta>
             <span>TESTNET Rinkeby</span>
+          </ListItem>
+
+          <ListItem>
+            <Meta>Mobile Friendly</Meta>
+            <span>Bad</span>
           </ListItem>
         </List>
 

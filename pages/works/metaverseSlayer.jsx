@@ -20,8 +20,8 @@ const Work = () => (
       </Title>
       <Section delay={0.1}>
         <Paragraph>
-          metaverseSlayer Blockchain Web 3.0 App with Next.js, Sanity.io,
-          thirdweb
+          Metaverse Slayer Blockchain Web 3.0 App. You can mint your own NFT and
+          battle against the Big Boss with that NFT. Defeat the Big Boss!
         </Paragraph>
       </Section>
 
@@ -41,18 +41,24 @@ const Work = () => (
           <ListItem>
             <Meta>Feature</Meta>
             <span>
-              MetaMask Auth, Sanity DB, thirdweb&apos;s smart contracts
+              MetaMask Auth, Minting NFT tokens, Storing NFT tokens via IPFS,
+              Play your own NFT token
             </span>
           </ListItem>
 
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React, Next.js, Sanity, thirdweb SDK, Tailwind</span>
+            <span>React, Next.js, Hardhat, Tailwind</span>
           </ListItem>
 
           <ListItem>
             <Meta>Platform</Meta>
             <span>TESTNET Rinkeby</span>
+          </ListItem>
+
+          <ListItem>
+            <Meta>Mobile Friendly</Meta>
+            <span>Moderate</span>
           </ListItem>
         </List>
 

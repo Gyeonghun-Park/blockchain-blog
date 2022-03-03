@@ -20,7 +20,8 @@ const Work = () => (
       </Title>
       <Section delay={0.1}>
         <Paragraph>
-          ToDo app built with React Native and Reanimated v2
+          ToDo app built with React Native. You can maintain your day-to-day
+          tasks or list everything that you have to do
         </Paragraph>
       </Section>
 
@@ -50,6 +51,11 @@ const Work = () => (
           <ListItem>
             <Meta>Platform</Meta>
             <span>iOS/Android</span>
+          </ListItem>
+
+          <ListItem>
+            <Meta>Mobile Friendly</Meta>
+            <span>Good</span>
           </ListItem>
         </List>
 

@@ -20,7 +20,8 @@ const Work = () => (
       </Title>
       <Section delay={0.1}>
         <Paragraph>
-          OpenSea Blockchain Web 3.0 App with Next.js, Sanity.io, thirdweb
+          OpenSea Blockchain Web 3.0 App. You can buy new NFT tokens or sell
+          your NFT tokens to others.
         </Paragraph>
       </Section>
 
@@ -40,7 +41,8 @@ const Work = () => (
           <ListItem>
             <Meta>Feature</Meta>
             <span>
-              MetaMask Auth, Sanity DB, thirdweb&apos;s smart contracts
+              MetaMask Auth, thirdweb&apos;s smart contracts, Buying and Selling
+              NFTs, Minting your own NFT token,
             </span>
           </ListItem>
 
@@ -52,6 +54,11 @@ const Work = () => (
           <ListItem>
             <Meta>Platform</Meta>
             <span>TESTNET Rinkeby</span>
+          </ListItem>
+
+          <ListItem>
+            <Meta>Mobile Friendly</Meta>
+            <span>Bad</span>
           </ListItem>
         </List>
 

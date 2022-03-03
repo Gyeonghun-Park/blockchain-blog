@@ -27,7 +27,7 @@ const Works = () => (
             title="Opensea Clone"
             thumbnail={openseaThumbnail}
           >
-            Opensea
+            A Marketplace buy or sell NFT tokens.
           </WorkGridItem>
         </Section>
 
@@ -37,17 +37,18 @@ const Works = () => (
             title="Twitter Clone"
             thumbnail={twitterThumbnail}
           >
-            Twitter
+            A social media app to connect people and allow people to share their
+            thoughts with a big audience
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
             id="gifMaker"
-            title="Gif Maker"
+            title="GIF Maker"
             thumbnail={gifMakerThumbnail}
           >
-            Gif Maker
+            A GIF Maker to create GIFs using keywords while sending Ethereum
           </WorkGridItem>
         </Section>
 
@@ -57,7 +58,8 @@ const Works = () => (
             thumbnail={metaverseSlayerThumbnail}
             title="Metaverse Slayer"
           >
-            Metaverse Slayer
+            An Web3.0 game to battle against the Big Boss with your NFT token.
+            Defeat the Big Boss!
           </WorkGridItem>
         </Section>
 
@@ -68,7 +70,8 @@ const Works = () => (
             title="Frogeum"
             isFrogeum={true}
           >
-            Frogeum
+            Frogeum is toy blockchain created by forking go-ethereum, the
+            ethereum implementation standard
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -84,7 +87,8 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="todo" thumbnail={toDoThumbnail} title="ToDo App">
-            Animated ToDo App built with React Native
+            An animated ToDo app to help you stay organized and manage your
+            day-to-day.
           </WorkGridItem>
         </Section>
 
@@ -94,7 +98,8 @@ const Works = () => (
             thumbnail={spotifyThumbnail}
             title="Spotify Clone"
           >
-            Spotify Clone with Next.js (Middleware, NextAuth)
+            Spotify to let you enter a digital music world where music, video,
+            and podcast streaming are fun
           </WorkGridItem>
         </Section>
 
@@ -104,13 +109,13 @@ const Works = () => (
             thumbnail={webPortfolioThumbnail}
             title="Web Portfolio"
           >
-            Web Portfolio
+            An interactive Website to show Gyeonghun&apos;s other works.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.3}>
           <WorkGridItem id="blog" thumbnail={blogThumbnail} title="Blog">
-            Blog
+            Gyeonghun&apos;s technical blog
           </WorkGridItem>
         </Section>
       </SimpleGrid>

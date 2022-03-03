@@ -13,14 +13,15 @@ import { Title, Meta, Paragraph, WorkImage, Section } from "@components/ui";
 import { ArticleLayout } from "@components/layouts";
 
 const Work = () => (
-  <ArticleLayout title="Gif Maker">
+  <ArticleLayout title="GIF Maker">
     <Container mt={8}>
       <Title>
-        Gif Maker <Badge>Next.js</Badge>
+        GIF Maker <Badge>Next.js</Badge>
       </Title>
       <Section delay={0.1}>
         <Paragraph>
-          gifMaker Blockchain Web 3.0 App with Next.js, Sanity.io, thirdweb
+          Gif Maker Blockchain Web 3.0 App. You can generate GIFs by adding a
+          keyword when sending Eth.
         </Paragraph>
       </Section>
 
@@ -39,19 +40,22 @@ const Work = () => (
 
           <ListItem>
             <Meta>Feature</Meta>
-            <span>
-              MetaMask Auth, Sanity DB, thirdweb&apos;s smart contracts
-            </span>
+            <span>MetaMask Auth, Generating GIFs, Sending Eth</span>
           </ListItem>
 
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React, Next.js, Sanity, thirdweb SDK, Tailwind</span>
+            <span>React, Next.js, Hardhat, Tailwind</span>
           </ListItem>
 
           <ListItem>
             <Meta>Platform</Meta>
             <span>TESTNET Rinkeby</span>
+          </ListItem>
+
+          <ListItem>
+            <Meta>Mobile Friendly</Meta>
+            <span>Good</span>
           </ListItem>
         </List>
 
@@ -72,7 +76,7 @@ const Work = () => (
         </Box>
 
         <Box align="center" my={4}>
-          <Link href="hhttps://gif-portal-solidity.vercel.app/" target="_blank">
+          <Link href="https://gif-portal-solidity.vercel.app/" target="_blank">
             <Button rightIcon={<ExternalLinkIcon />} colorScheme="teal">
               Demo Site
             </Button>

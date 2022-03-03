@@ -16,11 +16,11 @@ const Work = () => (
   <ArticleLayout title="Blog">
     <Container mt={8}>
       <Title>
-        Blog <Badge>Next.js</Badge>
+        Blog <Badge>Hexo</Badge>
       </Title>
       <Section delay={0.1}>
         <Paragraph>
-          webPortfol Blockchain Web 3.0 App with Next.js, Sanity.io, thirdweb
+          Gyeonghun&apos;s technical blog. You can see what Gyeonghun studied.
         </Paragraph>
       </Section>
 
@@ -38,20 +38,23 @@ const Work = () => (
           </ListItem>
 
           <ListItem>
+            <Meta>Platform</Meta>
+            <span>Web</span>
+          </ListItem>
+
+          <ListItem>
             <Meta>Feature</Meta>
-            <span>
-              MetaMask Auth, Sanity DB, thirdweb&apos;s smart contracts
-            </span>
+            <span> Writing, Searching, Commenting, Social Sharing</span>
           </ListItem>
 
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React, Next.js, Sanity, thirdweb SDK, Tailwind</span>
+            <span>React, Hexo</span>
           </ListItem>
 
           <ListItem>
-            <Meta>Platform</Meta>
-            <span>TESTNET Rinkeby</span>
+            <Meta>Mobile Friendly</Meta>
+            <span>Good</span>
           </ListItem>
         </List>
 

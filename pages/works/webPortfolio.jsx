@@ -20,7 +20,8 @@ const Work = () => (
       </Title>
       <Section delay={0.1}>
         <Paragraph>
-          webPortfol Blockchain Web 3.0 App with Next.js, Sanity.io, thirdweb
+          Gyeonghun&apos;s web portfolio. You can interact with the web and its
+          elements.
         </Paragraph>
       </Section>
 
@@ -39,19 +40,22 @@ const Work = () => (
 
           <ListItem>
             <Meta>Feature</Meta>
-            <span>
-              MetaMask Auth, Sanity DB, thirdweb&apos;s smart contracts
-            </span>
+            <span>Web interaction,Showing Gyeonghun&apos;s other works</span>
           </ListItem>
 
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React, Next.js, Sanity, thirdweb SDK, Tailwind</span>
+            <span>React, PixiJS, Tailwind</span>
           </ListItem>
 
           <ListItem>
             <Meta>Platform</Meta>
-            <span>TESTNET Rinkeby</span>
+            <span>Web</span>
+          </ListItem>
+
+          <ListItem>
+            <Meta>Mobile Friendly</Meta>
+            <span>Moderate</span>
           </ListItem>
         </List>
 

@@ -41,7 +41,7 @@ const Work = () => (
           <ListItem>
             <Meta>Feature</Meta>
             <span>
-              Spotify Login, Play Music, Music recommendation, My playlist
+              Spotify Login, Playing Music, Music recommendation, My playlist
             </span>
           </ListItem>
 
@@ -53,6 +53,11 @@ const Work = () => (
           <ListItem>
             <Meta>Platform</Meta>
             <span>Web</span>
+          </ListItem>
+
+          <ListItem>
+            <Meta>Mobile Friendly</Meta>
+            <span>Good</span>
           </ListItem>
         </List>
 
