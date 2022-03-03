@@ -51,14 +51,14 @@ function Home() {
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Work
+            Who is he?
           </Heading>
           <Paragraph>
-            Gyeonghun is a student and a full-stack developer based in Korea
-            with a passion for building digital services/stuff he wants. He is
-            passionate about solving real-life problems with code from planning
-            and design. Currently, he is into blockchain and this blog is also a
-            portfolio for his blockchain works. However, there is another{" "}
+            Gyeonghun is a student based in Korea with a passion for building
+            digital services/stuff he wants. He is passionate about solving
+            real-life problems with code from planning and design. Currently, he
+            is into blockchain and this blog is also a portfolio for his
+            blockchain works. However, there is another{" "}
             <Link
               href="https://distracted-liskov-02940c.netlify.app/"
               target="_blank"
