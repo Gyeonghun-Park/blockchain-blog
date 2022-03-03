@@ -68,6 +68,7 @@ function Home() {
             related to front, backend, and cloud, so please check if you are
             interested. :)
           </Paragraph>
+
           <Box align="center" my={4}>
             <NextLink href="/works" passHref scroll={false}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">

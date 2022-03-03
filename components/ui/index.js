@@ -10,3 +10,4 @@ export {
   DogContainer,
 } from "./voxelDogLoader";
 export { default as Paragraph } from "./paragraph";
+export { Title, WorkImage, Meta } from "./work";

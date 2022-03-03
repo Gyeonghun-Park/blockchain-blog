@@ -38,8 +38,8 @@ const BlockCode = ({ children }) => (
 
 function Frogeum() {
   return (
-    <ArticleLayout title="Posts">
-      <Container>
+    <ArticleLayout title="Frogeum">
+      <Container mt={8}>
         <Box mb={6}>
           <Box textAlign="center">
             <ChakraImage
