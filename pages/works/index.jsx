@@ -11,6 +11,7 @@ import frogeumThumbnail from "@images/frogeum/thumbnail.png";
 import toDoThumbnail from "@images/works/todo/1.png";
 import spotifyThumbnail from "@images/works/spotify/1.png";
 import webPortfolioThumbnail from "@images/works/webPortfolio/1.png";
+import blogThumbnail from "@images/works/blog/1.png";
 
 const Works = () => (
   <ArticleLayout title="Works">
@@ -104,6 +105,12 @@ const Works = () => (
             title="Web Portfolio"
           >
             Web Portfolio
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.3}>
+          <WorkGridItem id="blog" thumbnail={blogThumbnail} title="Blog">
+            Blog
           </WorkGridItem>
         </Section>
       </SimpleGrid>

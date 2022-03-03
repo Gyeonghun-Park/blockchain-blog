@@ -13,10 +13,10 @@ import { Title, Meta, Paragraph, WorkImage, Section } from "@components/ui";
 import { ArticleLayout } from "@components/layouts";
 
 const Work = () => (
-  <ArticleLayout title="Web Portfolio">
+  <ArticleLayout title="Blog">
     <Container mt={8}>
       <Title>
-        Web Portfolio <Badge>Next.js</Badge>
+        Blog <Badge>Next.js</Badge>
       </Title>
       <Section delay={0.1}>
         <Paragraph>
@@ -29,10 +29,10 @@ const Work = () => (
           <ListItem>
             <Meta>Source Code</Meta>
             <Link
-              href="https://github.com/Gyeonghun-Park/portfolio"
+              href="https://github.com/Gyeonghun-Park/gyeonghun-park.github.io-src"
               target="_blank"
             >
-              https://github.com/Gyeonghun-Park/portfolio{" "}
+              https://github.com/Gyeonghun-Park/gyeonghun-park.github.io-src{" "}
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
@@ -55,23 +55,8 @@ const Work = () => (
           </ListItem>
         </List>
 
-        <Box
-          borderRadius="lg"
-          mt={12}
-          mb={6}
-          p={3}
-          textAlign="center"
-          textColor="red.500"
-          bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
-        >
-          This demo doesn&apos;t work properly in Safari browser.
-        </Box>
-
         <Box align="center" my={4}>
-          <Link
-            href="https://distracted-liskov-02940c.netlify.app/"
-            target="_blank"
-          >
+          <Link href="https://gyeonghun-park.github.io/" target="_blank">
             <Button rightIcon={<ExternalLinkIcon />} colorScheme="teal">
               Demo Site
             </Button>
@@ -79,22 +64,7 @@ const Work = () => (
         </Box>
       </Section>
 
-      <WorkImage
-        src="/images/works/webPortfolio/2.png"
-        alt="Web Portfolio demo"
-      />
-      <WorkImage
-        src="/images/works/webPortfolio/3.png"
-        alt="Web Portfolio demo"
-      />
-      <WorkImage
-        src="/images/works/webPortfolio/4.png"
-        alt="Web Portfolio demo"
-      />
-      <WorkImage
-        src="/images/works/webPortfolio/5.png"
-        alt="Web Portfolio demo"
-      />
+      <WorkImage src="/images/works/blog/2.png" alt="Blog demo" />
     </Container>
   </ArticleLayout>
 );
