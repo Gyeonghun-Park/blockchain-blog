@@ -18,14 +18,14 @@ const Work = () => (
       <Title>
         GIF Maker <Badge>Next.js</Badge>
       </Title>
-      <Section delay={0.1}>
+      <Section>
         <Paragraph>
           Gif Maker Blockchain Web 3.0 App. You can generate GIFs by adding a
           keyword when sending Eth.
         </Paragraph>
       </Section>
 
-      <Section delay={0.3}>
+      <Section delay={0.2}>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source Code</Meta>
@@ -58,7 +58,9 @@ const Work = () => (
             <span>Good</span>
           </ListItem>
         </List>
+      </Section>
 
+      <Section delay={0.3}>
         <Box
           borderRadius="lg"
           mt={12}
@@ -82,9 +84,9 @@ const Work = () => (
             </Button>
           </Link>
         </Box>
-      </Section>
 
-      <WorkImage src="/images/works/gifMaker/2.png" alt="Gif maker demo" />
+        <WorkImage src="/images/works/gifMaker/2.png" alt="Gif maker demo" />
+      </Section>
     </Container>
   </ArticleLayout>
 );

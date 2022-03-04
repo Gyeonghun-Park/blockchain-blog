@@ -18,14 +18,14 @@ const Work = () => (
       <Title>
         Metaverse Slayer <Badge>Next.js</Badge>
       </Title>
-      <Section delay={0.1}>
+      <Section>
         <Paragraph>
           Metaverse Slayer Blockchain Web 3.0 App. You can mint your own NFT and
           battle against the Big Boss with that NFT. Defeat the Big Boss!
         </Paragraph>
       </Section>
 
-      <Section delay={0.3}>
+      <Section delay={0.2}>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source Code</Meta>
@@ -61,7 +61,9 @@ const Work = () => (
             <span>Moderate</span>
           </ListItem>
         </List>
+      </Section>
 
+      <Section delay={0.3}>
         <Box
           borderRadius="lg"
           mt={12}
@@ -85,16 +87,16 @@ const Work = () => (
             </Button>
           </Link>
         </Box>
-      </Section>
 
-      <WorkImage
-        src="/images/works/metaverseSlayer/2.png"
-        alt="Metaverse Slayer demo"
-      />
-      <WorkImage
-        src="/images/works/metaverseSlayer/3.png"
-        alt="Metaverse Slayer demo"
-      />
+        <WorkImage
+          src="/images/works/metaverseSlayer/2.png"
+          alt="Metaverse Slayer demo"
+        />
+        <WorkImage
+          src="/images/works/metaverseSlayer/3.png"
+          alt="Metaverse Slayer demo"
+        />
+      </Section>
     </Container>
   </ArticleLayout>
 );

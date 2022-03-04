@@ -18,7 +18,7 @@ const Work = () => (
       <Title>
         Twitter Clone <Badge>Next.js</Badge>
       </Title>
-      <Section delay={0.1}>
+      <Section>
         <Paragraph>
           Twitter Blockchain Web 3.0. You can communicate in short messages
           called tweets and mint your own NFT token for use as your profile
@@ -26,7 +26,7 @@ const Work = () => (
         </Paragraph>
       </Section>
 
-      <Section delay={0.3}>
+      <Section delay={0.2}>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source Code</Meta>
@@ -59,7 +59,9 @@ const Work = () => (
             <span>Bad</span>
           </ListItem>
         </List>
+      </Section>
 
+      <Section delay={0.3}>
         <Box
           borderRadius="lg"
           mt={12}
@@ -86,11 +88,11 @@ const Work = () => (
             </Button>
           </Link>
         </Box>
-      </Section>
 
-      <WorkImage src="/images/works/twitter/2.png" alt="Twitter demo" />
-      <WorkImage src="/images/works/twitter/3.png" alt="Twitter demo" />
-      <WorkImage src="/images/works/twitter/4.png" alt="Twitter demo" />
+        <WorkImage src="/images/works/twitter/2.png" alt="Twitter demo" />
+        <WorkImage src="/images/works/twitter/3.png" alt="Twitter demo" />
+        <WorkImage src="/images/works/twitter/4.png" alt="Twitter demo" />
+      </Section>
     </Container>
   </ArticleLayout>
 );

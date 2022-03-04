@@ -18,13 +18,13 @@ const Work = () => (
       <Title>
         Blog <Badge>Hexo</Badge>
       </Title>
-      <Section delay={0.1}>
+      <Section>
         <Paragraph>
           Gyeonghun&apos;s technical blog. You can see what Gyeonghun studied.
         </Paragraph>
       </Section>
 
-      <Section delay={0.3}>
+      <Section delay={0.2}>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source Code</Meta>
@@ -57,7 +57,9 @@ const Work = () => (
             <span>Good</span>
           </ListItem>
         </List>
+      </Section>
 
+      <Section delay={0.3}>
         <Box align="center" my={4}>
           <Link href="https://gyeonghun-park.github.io/" target="_blank">
             <Button rightIcon={<ExternalLinkIcon />} colorScheme="teal">
@@ -65,9 +67,9 @@ const Work = () => (
             </Button>
           </Link>
         </Box>
-      </Section>
 
-      <WorkImage src="/images/works/blog/2.png" alt="Blog demo" />
+        <WorkImage src="/images/works/blog/2.png" alt="Blog demo" />
+      </Section>
     </Container>
   </ArticleLayout>
 );

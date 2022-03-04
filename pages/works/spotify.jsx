@@ -18,7 +18,7 @@ const Work = () => (
       <Title>
         Spotify Clone <Badge>Next.js</Badge>
       </Title>
-      <Section delay={0.1}>
+      <Section>
         <Paragraph>
           With Spotify, you can listen to music and play millions of songs and
           podcasts. Stream music and podcasts you love and find music
@@ -60,7 +60,9 @@ const Work = () => (
             <span>Good</span>
           </ListItem>
         </List>
+      </Section>
 
+      <Section delay={0.3}>
         <Box
           borderRadius="lg"
           mt={12}
@@ -83,10 +85,10 @@ const Work = () => (
             </Button>
           </Link>
         </Box>
-      </Section>
 
-      <WorkImage src="/images/works/spotify/2.png" alt="Spotify demo" />
-      <WorkImage src="/images/works/spotify/3.png" alt="Spotify demo" />
+        <WorkImage src="/images/works/spotify/2.png" alt="Spotify demo" />
+        <WorkImage src="/images/works/spotify/3.png" alt="Spotify demo" />
+      </Section>
     </Container>
   </ArticleLayout>
 );

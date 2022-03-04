@@ -18,14 +18,14 @@ const Work = () => (
       <Title>
         Opensea Clone <Badge>Next.js</Badge>
       </Title>
-      <Section delay={0.1}>
+      <Section>
         <Paragraph>
           OpenSea Blockchain Web 3.0 App. You can buy new NFT tokens or sell
           your NFT tokens to others.
         </Paragraph>
       </Section>
 
-      <Section delay={0.3}>
+      <Section delay={0.2}>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source Code</Meta>
@@ -61,7 +61,9 @@ const Work = () => (
             <span>Bad</span>
           </ListItem>
         </List>
+      </Section>
 
+      <Section delay={0.3}>
         <Box
           borderRadius="lg"
           mt={12}
@@ -85,10 +87,10 @@ const Work = () => (
             </Button>
           </Link>
         </Box>
-      </Section>
 
-      <WorkImage src="/images/works/opensea/2.png" alt="Opensea demo" />
-      <WorkImage src="/images/works/opensea/3.png" alt="Opensea demo" />
+        <WorkImage src="/images/works/opensea/2.png" alt="Opensea demo" />
+        <WorkImage src="/images/works/opensea/3.png" alt="Opensea demo" />
+      </Section>
     </Container>
   </ArticleLayout>
 );

@@ -18,14 +18,14 @@ const Work = () => (
       <Title>
         ToDo App <Badge>React Native</Badge>
       </Title>
-      <Section delay={0.1}>
+      <Section>
         <Paragraph>
           ToDo app built with React Native. You can maintain your day-to-day
           tasks or list everything that you have to do
         </Paragraph>
       </Section>
 
-      <Section delay={0.3}>
+      <Section delay={0.2}>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source Code</Meta>
@@ -58,7 +58,9 @@ const Work = () => (
             <span>Good</span>
           </ListItem>
         </List>
+      </Section>
 
+      <Section delay={0.3}>
         <Box
           borderRadius="lg"
           mt={12}
@@ -78,11 +80,11 @@ const Work = () => (
             </Button>
           </Link>
         </Box>
-      </Section>
 
-      <Box align="center" my={4}>
-        <WorkImage src="/images/works/todo/2.gif" alt="Todo demo" />
-      </Box>
+        <Box align="center" my={4}>
+          <WorkImage src="/images/works/todo/2.gif" alt="Todo demo" />
+        </Box>
+      </Section>
     </Container>
   </ArticleLayout>
 );

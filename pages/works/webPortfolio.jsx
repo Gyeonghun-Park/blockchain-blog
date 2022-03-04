@@ -18,14 +18,14 @@ const Work = () => (
       <Title>
         Web Portfolio <Badge>Next.js</Badge>
       </Title>
-      <Section delay={0.1}>
+      <Section>
         <Paragraph>
           Gyeonghun&apos;s web portfolio. You can interact with the web and its
           elements.
         </Paragraph>
       </Section>
 
-      <Section delay={0.3}>
+      <Section delay={0.2}>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source Code</Meta>
@@ -58,7 +58,9 @@ const Work = () => (
             <span>Moderate</span>
           </ListItem>
         </List>
+      </Section>
 
+      <Section delay={0.3}>
         <Box
           borderRadius="lg"
           mt={12}
@@ -81,24 +83,24 @@ const Work = () => (
             </Button>
           </Link>
         </Box>
-      </Section>
 
-      <WorkImage
-        src="/images/works/webPortfolio/2.png"
-        alt="Web Portfolio demo"
-      />
-      <WorkImage
-        src="/images/works/webPortfolio/3.png"
-        alt="Web Portfolio demo"
-      />
-      <WorkImage
-        src="/images/works/webPortfolio/4.png"
-        alt="Web Portfolio demo"
-      />
-      <WorkImage
-        src="/images/works/webPortfolio/5.png"
-        alt="Web Portfolio demo"
-      />
+        <WorkImage
+          src="/images/works/webPortfolio/2.png"
+          alt="Web Portfolio demo"
+        />
+        <WorkImage
+          src="/images/works/webPortfolio/3.png"
+          alt="Web Portfolio demo"
+        />
+        <WorkImage
+          src="/images/works/webPortfolio/4.png"
+          alt="Web Portfolio demo"
+        />
+        <WorkImage
+          src="/images/works/webPortfolio/5.png"
+          alt="Web Portfolio demo"
+        />
+      </Section>
     </Container>
   </ArticleLayout>
 );
